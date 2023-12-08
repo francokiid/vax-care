@@ -1,0 +1,161 @@
+@import url("../css/style.css");
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--second-color);
+    background-image: var(--third-gradient);
+    color: black;
+}
+
+header {
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+h3 {
+    color: var(--second-color);
+}
+
+.booklet {
+    width: 30rem;
+    height: 35rem;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.paper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    perspective: 2000px;
+}
+
+
+#p1 {
+    z-index: 3;
+}
+
+#p2 {
+    z-index: 2;
+}
+
+#p3 {
+    z-index: 1;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    background-color: var(--second-color-light);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.front {
+    border-left: 10px solid var(--second-color);
+    backface-visibility: hidden;
+    overflow: scroll;
+    z-index: 1;
+}
+
+.back {
+    z-index: 0;
+}
+
+.flipped .front, .flipped .back {
+    transform: rotateY(-180deg);
+}
+
+.front-content, .back-content {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.back-content {
+    transform: rotateY(180deg)
+}
+
+#f1 {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#f2 p {
+    margin-top: 0;
+}
+
+#f3 {
+    padding: 0;
+}
+
+#prev-btn, #next-btn {
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+#prev-btn {
+    left: 0;
+}
+
+#next-btn {
+    right: 0;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+table {
+    width: 100%;
+    table-layout: auto;
+}
+
+thead th {
+    background-color: var(--first-color);
+    text-wrap: nowrap;
+    color: var(--fourth-color);
+    cursor: pointer;
+}
+
+th:first-child, td:first-child {
+    padding-left: 2rem;
+}
+
+th:last-child, td:last-child {
+    padding-right: 2rem;
+}
+
+tbody tr {
+    background-color: var(--fourth-color);
+}
+
+tbody tr:nth-child(even) {
+    background: var(--first-gradient);
+}
+
+
+@media screen and (max-width: 991.98px){
+    .booklet {
+        width: calc(100vw - 4rem);
+    }
+    .back {
+        display: none;
+    }
+}
