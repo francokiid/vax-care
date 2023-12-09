@@ -5,6 +5,8 @@
 - Context Diagram
 - Screenshots
 - Links (System Demo and MySQL Table Structure)
+- Self Assessment
+- Peer Evaluation
 
 ## How to Run
 
