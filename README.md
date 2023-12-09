@@ -1,7 +1,26 @@
+## Contents
+- Links
+- How to Run
+- About Vax-Care
+- Objectives of the Projects
+- Context Diagram
+- Screenshots
+
 ## Links
 
 [Vax-Care Demonstration](https://drive.google.com/file/d/1kAGwqHioyPp3Ngtx7I4d1bYF-uqdv-nO/view?usp=sharing) </br>
 [Database Table Structure](https://docs.google.com/document/d/1L6wKUe1M9zm6pQChxm1D2aEjgTNvmECP4B-u2_n6QgA/edit?usp=sharing)
+
+## How to Run
+
+- Make sure you have a local server (XAMPP) installed.
+- Open the XAMPP Controller, and start Apache and MySQL.
+- Browse the PHPMyAdmin in a browser.
+- Create a new database and name it "vaxcare".
+- Import the provided SQL file, i.e. vaxcare.sql.
+- Download Vax-Care's ZIP file and extract it.
+- Copy and paste it into XAMPP's "htdocs" directory.
+- Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php".
 
 ## Self Assessment
 
@@ -28,11 +47,6 @@
 Vax-Care is a web-based system designed to streamline the management of data regarding the immunization of pregnant women and newborns in Barangay Haligue Silangan, Batangas City. It aims to replace the existing manual recordkeeping procedures, increase productivity and efficiency in the community’s health facility, and reduce the risks of sluggish data processing, data duplication/loss, and inaccurate reporting. 
 
 The system has two primary beneficiaries: Barangay Health Workers (BHWs), whose workload will be significantly reduced; as well as pregnant women and newborns, who will receive the quality vaccination service they deserve.
-
-
-## Sustainable Development Goal 3: Good Health and Well-being
-
-Vax-Care’s desired impact aligns with SDG 3, specifically Targets 3.1 and 3.2, which recognize the significance of safeguarding the well-being of all individuals by reducing the global maternal mortality ratio and preventing deaths of newborns and children under 5 years of age. With improved services in community health facilities, vaccination rates can be maximized and missed doses can be minimized, significantly reducing the risk of vaccine-preventable diseases. 
 
 ## Objectives of the Project
 
