@@ -15,7 +15,7 @@
 3. Browse the PHPMyAdmin in a browser through the link "http://localhost/phpmyadmin".
 4. Create a new database and name it "vaxcare".
 5. Import the provided SQL file, i.e. vaxcare.sql.
-6. Download Vax-Care's ZIP file and extract it.
+6. Download Vax-Care's ZIP file and extract it. Make sure that the folder is named as "vax-care".
 7. Copy and paste it into XAMPP's "htdocs" directory.
 8. Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php" for vaccine recipients and "http://localhost/vax-care/login-bhw.php" for barangay health workers.
 
