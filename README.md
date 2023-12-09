@@ -23,7 +23,7 @@
 | 20-00208 | Franco, Angel E. | 20% | UI Designer & Lead Developer |
 | 20-05541 | Malapitan, Nhica Clarrise S. | 20% | Database Administrator & Developer  |
 
-## Project Scope
+## About Vax-Care
 
 Vax-Care is a web-based system designed to streamline the management of data regarding the immunization of pregnant women and newborns in Barangay Haligue Silangan, Batangas City. It aims to replace the existing manual recordkeeping procedures, increase productivity and efficiency in the community’s health facility, and reduce the risks of sluggish data processing, data duplication/loss, and inaccurate reporting. 
 
@@ -110,29 +110,29 @@ The main objective of the project is to design and develop a centralized and ful
 ![2-dashboard](https://github.com/francokiid/vax-care/assets/117970385/626466ec-3c33-468c-acfa-099a69eb72e7)
 ![3-dashboard](https://github.com/francokiid/vax-care/assets/117970385/22ef8915-7ec8-4619-9a3c-97fbda6006cc)
 
-### Accounts Management
+### Accounts Management (Retrieve, Add, Update, Deactivate)
 ![4-accounts](https://github.com/francokiid/vax-care/assets/117970385/d50264ae-4043-4a5b-b279-7c279b4afd46)
 ![5-add-account](https://github.com/francokiid/vax-care/assets/117970385/3b75b6fa-8787-44e5-850e-4b55794ba1a9)
 ![6-update-account](https://github.com/francokiid/vax-care/assets/117970385/d8fa6ddf-c609-4b77-b372-b537cf31b1f6)
 ![7-deactivate-account](https://github.com/francokiid/vax-care/assets/117970385/2c5b8ddc-e347-4a83-9683-8dfc6cbbeb30)
 
-### Inventory Management
+### Inventory Management (Retrieve, Add, Update, Discontinue)
 ![8-inventory](https://github.com/francokiid/vax-care/assets/117970385/c2c6babf-0704-4e69-9970-5f64fab613d1)
 ![9-add-vax](https://github.com/francokiid/vax-care/assets/117970385/29524a76-b555-4208-b39c-6c64510466c3)
 ![10-update-stocks](https://github.com/francokiid/vax-care/assets/117970385/3e083cbe-aa73-46de-b608-17466f1eb041)
 ![11-discontinue-vax](https://github.com/francokiid/vax-care/assets/117970385/a485b0f6-a675-4588-80c6-44e1c02a75c6)
 
-### Pregnant Recipients Management
+### Pregnant Recipients Management (Retrieve, Add, Update)
 ![12-pregnant-women](https://github.com/francokiid/vax-care/assets/117970385/441e8bcc-b078-419c-9da1-3557ad319a02)
 ![13-add-pregnant](https://github.com/francokiid/vax-care/assets/117970385/59adbc3b-9db0-4ff6-bb07-17be8bac57aa)
 ![14-update-pregnant](https://github.com/francokiid/vax-care/assets/117970385/161956f6-5474-4463-a077-b06510688d8d)
 
-### Newborn Recipients Management
+### Newborn Recipients Management (Retrieve, Add, Update)
 ![15-newborns](https://github.com/francokiid/vax-care/assets/117970385/1a2f7453-877d-41ca-ad29-2bc88dc8020f)
 ![16-add-newborn](https://github.com/francokiid/vax-care/assets/117970385/6410d159-689a-43c1-8054-f9afd393ab9c)
 ![17-update-newborn](https://github.com/francokiid/vax-care/assets/117970385/ac1f0fdd-1961-47a1-8f91-78f02aef1d6d)
 
-### Schedules Management
+### Schedules Management (Retrieve, Add, Update, Cancel)
 ![18-schedules](https://github.com/francokiid/vax-care/assets/117970385/09b1469e-3019-4dec-893f-67ceb2008f23)
 ![19-add-schedule](https://github.com/francokiid/vax-care/assets/117970385/752197fd-c6b6-4e9f-b3f6-709163bd7c55)
 ![20-cancel-schedule](https://github.com/francokiid/vax-care/assets/117970385/4d2b8039-7cf9-4678-ad70-33963300cc96)
