@@ -1,21 +1,16 @@
 ## Contents
-- Links
 - How to Run
 - About Vax-Care
 - Objectives of the Projects
 - Context Diagram
 - Screenshots
-
-## Links
-
-[Vax-Care Demonstration](https://drive.google.com/file/d/1kAGwqHioyPp3Ngtx7I4d1bYF-uqdv-nO/view?usp=sharing) </br>
-[Database Table Structure](https://docs.google.com/document/d/1L6wKUe1M9zm6pQChxm1D2aEjgTNvmECP4B-u2_n6QgA/edit?usp=sharing)
+- Links (System Demo and MySQL Table Structure)
 
 ## How to Run
 
 - Make sure you have a local server (XAMPP) installed.
 - Open the XAMPP Controller, and start Apache and MySQL.
-- Browse the PHPMyAdmin in a browser.
+- Browse the PHPMyAdmin in a browser through the link "http://localhost/phpmyadmin".
 - Create a new database and name it "vaxcare".
 - Import the provided SQL file, i.e. vaxcare.sql.
 - Download Vax-Care's ZIP file and extract it.
@@ -153,3 +148,8 @@ The main objective of the project is to design and develop a centralized and ful
 
 ### FIC Monthly Report
 ![21-fic-monthly-report](https://github.com/francokiid/vax-care/assets/117970385/d0fb33d4-c0f2-4942-80ab-6193aa4dd485)
+
+## Links
+
+[Vax-Care Demonstration](https://drive.google.com/file/d/1kAGwqHioyPp3Ngtx7I4d1bYF-uqdv-nO/view?usp=sharing) </br>
+[Database Table Structure](https://docs.google.com/document/d/1L6wKUe1M9zm6pQChxm1D2aEjgTNvmECP4B-u2_n6QgA/edit?usp=sharing)
