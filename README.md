@@ -19,26 +19,6 @@
 7. Copy and paste it into XAMPP's "htdocs" directory.
 8. Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php".
 
-## Self Assessment
-
-|  Metric  | 4         | 3        | 2       | 1        |
-| ------------- | ---------------- | --------------- | -------------- | --------------- |
-| HTML  |  :heavy_check_mark:    |     |    |     |
-| CSS  |   :heavy_check_mark:    |     |    |     |
-| JavaScript  |   :heavy_check_mark:    |     |    |     |
-| Creativity  |  :heavy_check_mark:    |     |    |     |
-| Overall  |   :heavy_check_mark:    |     |    |     |
-
-## Peer Evaluation
-
-|  SR-Code | Member | Grade | Designation |
-| -------- | -------- | -------- | -------- |
-| 21-00791 | Balmes, Joann V. | 20% | Database Administrator & Developer |
-| 20-06293 | Banaag, Camille Mae A. | 20% | UI Designer & Developer |
-| 21-05038 | Candor, Valerie Myca L. | 20% | System Analyst & Developer |
-| 20-00208 | Franco, Angel E. | 20% | UI Designer & Lead Developer |
-| 20-05541 | Malapitan, Nhica Clarrise S. | 20% | Database Administrator & Developer  |
-
 ## About Vax-Care
 
 Vax-Care is a web-based system designed to streamline the management of data regarding the immunization of pregnant women and newborns in Barangay Haligue Silangan, Batangas City. It aims to replace the existing manual recordkeeping procedures, increase productivity and efficiency in the community’s health facility, and reduce the risks of sluggish data processing, data duplication/loss, and inaccurate reporting. 
@@ -155,3 +135,23 @@ The main objective of the project is to design and develop a centralized and ful
 
 [Vax-Care Demonstration](https://drive.google.com/file/d/1kAGwqHioyPp3Ngtx7I4d1bYF-uqdv-nO/view?usp=sharing) </br>
 [Database Table Structure](https://docs.google.com/document/d/1L6wKUe1M9zm6pQChxm1D2aEjgTNvmECP4B-u2_n6QgA/edit?usp=sharing)
+
+## Self Assessment
+
+|  Metric  | 4         | 3        | 2       | 1        |
+| ------------- | ---------------- | --------------- | -------------- | --------------- |
+| HTML  |  :heavy_check_mark:    |     |    |     |
+| CSS  |   :heavy_check_mark:    |     |    |     |
+| JavaScript  |   :heavy_check_mark:    |     |    |     |
+| Creativity  |  :heavy_check_mark:    |     |    |     |
+| Overall  |   :heavy_check_mark:    |     |    |     |
+
+## Peer Evaluation
+
+|  SR-Code | Member | Grade | Designation |
+| -------- | -------- | -------- | -------- |
+| 21-00791 | Balmes, Joann V. | 20% | Database Administrator & Developer |
+| 20-06293 | Banaag, Camille Mae A. | 20% | UI Designer & Developer |
+| 21-05038 | Candor, Valerie Myca L. | 20% | System Analyst & Developer |
+| 20-00208 | Franco, Angel E. | 20% | UI Designer & Lead Developer |
+| 20-05541 | Malapitan, Nhica Clarrise S. | 20% | Database Administrator & Developer  |
