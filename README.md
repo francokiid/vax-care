@@ -1,9 +1,9 @@
 ## Contents
 - How to Run
 - About Vax-Care
-- Objectives of the Projects
+- Objectives of the Project
 - Context Diagram
-- Screenshots
+- Screenshots of the Website
 - Links (System Demo and MySQL Table Structure)
 - Self Assessment
 - Peer Evaluation
