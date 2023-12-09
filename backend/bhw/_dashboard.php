@@ -2,6 +2,7 @@
 
 include "../../backend/config/_connect.php";
 
+// RETURN THE PERCENTAGE OF RECIPIENTS WHO DID NOT CONTINUE THEIR VACCINATION
 function calculateDropout($conn, $firstDose, $lastDose){
     $res = mysqli_query($conn, "SELECT COUNT(`SchedID`) AS `$firstDose` FROM `nbsched_tbl` WHERE `SchedStatus`='Done' AND `VaccineID` = '$firstDose'");
     $row = mysqli_fetch_assoc($res);
@@ -60,7 +61,7 @@ catch(DivisionByZeroError){
 }
 $immunization .= "%";
 
-// LINE CHART DATA
+// LINE CHART DATA 1 - NUMBER OF NEWBORN VACCINATIONS PER MONTH IN THE CURRENT YEAR
 $lineData = array();
 
 $sql = "SELECT MONTH(`SchedDate`) as num, DATE_FORMAT(`SchedDate`, '%M') AS month, COUNT(*) AS total FROM `nbsched_tbl` WHERE `SchedStatus`='Done' AND YEAR(`SchedDate`)=YEAR(NOW()) GROUP BY month ORDER BY MONTH(`SchedDate`)";
@@ -70,6 +71,7 @@ while ($row = mysqli_fetch_array($vaccinations)){
   $lineData[] = array("x"=> $row["num"], "label"=> $row["month"],"y" => $row['total']);
 }
 
+// LINE CHART DATA  2- NUMBER OF PREGNANT VACCINATIONS PER MONTH IN THE CURRENT YEAR
 $lineData2 = array();
 
 $sql = "SELECT MONTH(`SchedDate`) as num, DATE_FORMAT(`SchedDate`, '%M') AS month, COUNT(*) AS total FROM `psched_tbl` WHERE `SchedStatus`='Done' AND YEAR(`SchedDate`)=YEAR(NOW()) GROUP BY month ORDER BY MONTH(`SchedDate`)";
@@ -79,7 +81,7 @@ while ($row = mysqli_fetch_array($vaccinations)){
   $lineData2[] = array("x"=> $row["num"], "label"=> $row["month"],"y" => $row['total']);
 }
 
-// PIE CHART
+// PIE CHART 1 DATA - DISTRIBUTION OF PREGNANT WOMEN'S IMMUNIZATION STATUS
 $pregnantPieData = array();
 
 $overall = mysqli_query($conn, "SELECT COUNT(*) AS `total` FROM `pregnant_tbl`");
@@ -98,7 +100,7 @@ while ($row = mysqli_fetch_array($status)){
     $pregnantPieData[] = array("label" => $row['status'], "y" => $percentage);
 }
 
-// PIE CHART 2
+// PIE CHART 2 DATA - DISTRIBUTION OF NEWBORNS' IMMUNIZATION STATUS
 $newbornPieData = array();
 
 $overall = mysqli_query($conn, "SELECT COUNT(*) AS `total` FROM `newborn_tbl`");
@@ -117,7 +119,7 @@ while ($row = mysqli_fetch_array($status)){
     $newbornPieData[] = array("label" => $row['status'], "y" => $percentage);
 }
 
-// PIE CHART 3
+// PIE CHART 3 DATA - SEX DISTRIBUTION OF NEWBORNS
 $sexPieData = array();
 
 $sql = "SELECT `Sex` AS `sex`, COUNT(*) AS `total` FROM `newborn_tbl` GROUP BY `Sex`";
@@ -135,7 +137,7 @@ while ($row = mysqli_fetch_array($status)){
     $sexPieData[] = array("label" => $row['sex'], "y" => $percentage);
   }
 
-// COLUMN CHART DATA
+// COLUMN CHART DATA - QUANTITY AVAILABLE AND QUANTITY RESERVED PER VACCINE
 $columnData = array();
 $columnData2 = array();
 $count = 0;
@@ -156,7 +158,7 @@ while ($row = mysqli_fetch_array($reserved)){
   $columnData2[] = array("label" => preg_replace('/[0-9]+/', '', $row['VaccineID']), "y" => $row['QtyAvailable']);
 }
 
-// BAR CHART DATA
+// STACKED BAR CHART DATA - DISTRIBUTION OF NEWBORNS' IMMUNIZATION STATUS PER SITIO
 $barData1 = array();
 
 $sql = "SELECT SUBSTRING_INDEX(`Address`, ',', 1) AS `address`, COUNT(`Address`) AS `total` FROM `newborn_tbl` WHERE `ImmunizationStatus`='NI' GROUP BY `Address` ORDER BY `Address` DESC";
