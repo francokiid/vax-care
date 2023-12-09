@@ -17,7 +17,7 @@
 5. Import the provided SQL file, i.e. vaxcare.sql.
 6. Download Vax-Care's ZIP file and extract it.
 7. Copy and paste it into XAMPP's "htdocs" directory.
-8. Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php".
+8. Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php" for vaccine recipients and "http://localhost/vax-care/index.php" for barangay health workers.
 
 ## About Vax-Care
 
