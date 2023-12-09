@@ -1,3 +1,8 @@
+## Links
+
+[Vax-Care Demonstration](https://drive.google.com/file/d/1kAGwqHioyPp3Ngtx7I4d1bYF-uqdv-nO/view?usp=sharing) </br>
+[Database Table Structure](https://docs.google.com/document/d/1L6wKUe1M9zm6pQChxm1D2aEjgTNvmECP4B-u2_n6QgA/edit?usp=sharing)
+
 ## Self Assessment
 
 |  Metric  | 4         | 3        | 2       | 1        |
@@ -68,8 +73,3 @@ The main objective of the project is to design and develop a centralized and ful
 ## Context Diagram
 
 ![Context](https://github.com/francokiid/vax-care/assets/117970385/0566b852-5885-42b6-889b-3f89da6f7008)
-
-## Links
-
-[Vax-Care Demonstration](https://drive.google.com/file/d/1kAGwqHioyPp3Ngtx7I4d1bYF-uqdv-nO/view?usp=sharing) </br>
-[Database Table Structure](https://docs.google.com/document/d/1L6wKUe1M9zm6pQChxm1D2aEjgTNvmECP4B-u2_n6QgA/edit?usp=sharing)
