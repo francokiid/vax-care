@@ -10,14 +10,14 @@
 
 ## How to Run
 
-- Make sure you have a local server (XAMPP) installed.
-- Open the XAMPP Controller, and start Apache and MySQL.
-- Browse the PHPMyAdmin in a browser through the link "http://localhost/phpmyadmin".
-- Create a new database and name it "vaxcare".
-- Import the provided SQL file, i.e. vaxcare.sql.
-- Download Vax-Care's ZIP file and extract it.
-- Copy and paste it into XAMPP's "htdocs" directory.
-- Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php".
+1. Make sure you have a local server (XAMPP) installed.
+2. Open the XAMPP Controller, and start Apache and MySQL.
+3. Browse the PHPMyAdmin in a browser through the link "http://localhost/phpmyadmin".
+4. Create a new database and name it "vaxcare".
+5. Import the provided SQL file, i.e. vaxcare.sql.
+6. Download Vax-Care's ZIP file and extract it.
+7. Copy and paste it into XAMPP's "htdocs" directory.
+8. Browse Vax-Care in a browser through the link "http://localhost/vax-care/index.php".
 
 ## Self Assessment
 
